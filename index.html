@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIKHA KRISNANDA HAFIZD | Portfolio — Universitas Muhammadiyah Malang</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio resmi Dikha Krisnanda Hafizd. Mahasiswa Teknik Informatika Universitas Muhammadiyah Malang (UMM), alumnus SMAN 2 Kaimana. Creative Fullstack Web Developer, Public Speaker, & Tech Enthusiast." />
+    <meta name="keywords" content="Dikha Krisnanda Hafizd, Portfolio, UMM, Universitas Muhammadiyah Malang, SMAN 2 Kaimana, Web Developer, Futurepreneur, Fullstack Developer" />
+    <meta name="author" content="Dikha Krisnanda Hafizd" />
+    
+    <!-- Theme & Favicon -->
+    <meta name="theme-color" content="#07090e" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Top Scroll Reading Progress Bar -->
+    <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Moving Cyber Grid Background Layer -->
+    <div class="bg-grid-cyber" aria-hidden="true"></div>
+
+    <!-- Interactive Ambient Cursor Spotlight Glow -->
+    <div class="cursor-glow-spotlight" id="cursor-glow" aria-hidden="true"></div>
+
+    <!-- Ambient Glow Layers -->
+    <div class="bg-ambient-layer" aria-hidden="true">
+      <div class="ambient-orb ambient-orb-1"></div>
+      <div class="ambient-orb ambient-orb-2"></div>
+      <div class="ambient-orb ambient-orb-3"></div>
+    </div>
+
+    <!-- Particle Constellation Canvas -->
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <!-- Top Navigation Bar -->
+    <header>
+      <nav class="site-nav" id="main-nav" aria-label="Main Navigation">
+        <div class="container nav-container">
+          <a href="#home" class="nav-brand" aria-label="Dikha Krisnanda Hafizd Home">
+            <span class="brand-badge">D</span>
+            <span class="brand-text">DIKHA<span>.DEV</span></span>
+          </a>
+
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#certificates" class="nav-link">Achievements</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#spotify" class="nav-link">M!play</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <div class="nav-cta-wrap">
+            <div class="status-indicator">
+              <span class="status-dot"></span>
+              <span>Available for Hire</span>
+            </div>
+            <a href="#contact" class="btn-contact-nav">
+              <span>Contact</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <button class="mobile-toggle-btn" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-section" id="home">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Text Column -->
+            <div class="hero-text-col">
+              <div class="hero-badge-pill">
+                <span>🎓</span>
+                <span>Universitas Muhammadiyah Malang • SMAN 2 Kaimana</span>
+              </div>
+
+              <h1 class="hero-headline">
+                Hello, I'm<br />
+                <span class="gradient-text">DIKHA KRISNANDA HAFIZD</span>
+              </h1>
+
+              <div class="hero-typewriter-box" aria-live="polite">
+                <span>&gt;</span>
+                <span id="typewriter-output">Informatics Student @ UMM</span>
+                <span class="typewriter-cursor"></span>
+              </div>
+
+              <p class="hero-bio">
+                Informatics Engineering student at <strong>Universitas Muhammadiyah Malang (UMM)</strong> dedicated to crafting modern, high-performance, and visually captivating digital experiences. Driven by tech innovation, public speaking, and national business ideation excellence.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#certificates" class="btn-primary">
+                  <span>Explore Achievements</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn-secondary">
+                  <span>Get In Touch</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="hero-social-strip">
+                <span class="social-strip-label">Connect:</span>
+                <div class="social-icons-group">
+                  <a href="https://github.com/dikhakrisnanda" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub" aria-label="GitHub Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.instagram.com/dikha25_" target="_blank" rel="noopener noreferrer" class="social-btn" title="Instagram @dikha25_" aria-label="Instagram Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                  </a>
+                  <a href="https://wa.me/6281354116729" target="_blank" rel="noopener noreferrer" class="social-btn" title="WhatsApp +62 813-5411-6729" aria-label="WhatsApp Contact">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </a>
+                  <a href="mailto:dikhakrisnanda@gmail.com" class="social-btn" title="Email dikhakrisnanda@gmail.com" aria-label="Email Me">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right 3D Interactive ID Card Column -->
+            <div class="hero-badge-stage">
+              <div class="badge-3d-card" id="badge-card" aria-label="Interactive 3D ID Badge of Dikha">
+                <div class="badge-hologram-shine"></div>
+
+                <!-- Lanyard Ribbon & Clip Hanger -->
+                <div class="badge-lanyard-hanger">
+                  <div class="lanyard-ribbon-strap"></div>
+                  <div class="lanyard-clip"></div>
+                  <div class="lanyard-slot"></div>
+                </div>
+
+                <!-- Badge Header -->
+                <div class="badge-header-row">
+                  <div class="badge-chip"></div>
+                  <div class="badge-campus-tag">
+                    UNIVERSITAS<br />MUHAMMADIYAH MALANG
+                  </div>
+                </div>
+
+                <!-- Portrait Photo Frame -->
+                <div class="badge-portrait-wrap">
+                  <img src="./assets/dikha_profile.jpg" alt="Foto Resmi Dikha Krisnanda Hafizd" class="badge-img" loading="eager" />
+                  <div class="badge-photo-overlay"></div>
+                  <span class="badge-photo-badge">UMM INFORMATICS</span>
+                </div>
+
+                <!-- Info Details -->
+                <div class="badge-info-details">
+                  <h2 class="badge-name">DIKHA KRISNANDA HAFIZD</h2>
+                  <p class="badge-role">Web Developer & Tech Enthusiast</p>
+                  <div class="badge-meta-row">
+                    <span>ID: UMM-2022-DKH</span>
+                    <span class="barcode-strip">|||| | ||| || |||</span>
+                    <span>SMAN 2 KMN</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME SECTION -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-desc">A closer look into my journey, core values, and dedication to crafting high-impact software.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card-surface">
+              <p class="about-p">
+                I am a 5th-semester <strong>Informatics Engineering</strong> undergraduate at <strong>Universitas Muhammadiyah Malang (UMM)</strong> with a deep passion for blending modern web engineering, elegant visual interactivity, and impactful digital solutions.
+              </p>
+              <p class="about-p">
+                Originally from <strong class="highlight-cyan">Kaimana, West Papua</strong> and an alumnus of <strong class="highlight-cyan">SMAN 2 Kaimana</strong>, I have maintained a competitive record of excellence since high school, including <strong class="highlight-cyan">3rd Place FLS2N West Papua Provincial Level (Short Movie)</strong> and <strong class="highlight-cyan">2nd Place in the Regency-Level Fahmil Qur'an Competition</strong>.
+              </p>
+              <p class="about-p">
+                Alongside active fullstack web engineering at UMM, I hold hands-on experience in <strong class="highlight-red">National Business Ideation Competitions</strong>, <strong class="highlight-cyan">Public Speaking</strong>, and global entrepreneurial programs including <strong>FEST GoWorld</strong> and <strong>GROW Project Indonesia</strong>.
+              </p>
+
+              <!-- Stats Grid -->
+              <div class="about-stats-grid">
+                <div class="stat-box">
+                  <div class="stat-number" data-target="7" data-suffix="+">0</div>
+                  <div class="stat-label">Official Honors &amp; Certifications</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number" data-target="5" data-suffix="">0</div>
+                  <div class="stat-label">Semester in Informatics (UMM)</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number" data-target="10" data-suffix="+">0</div>
+                  <div class="stat-label">Featured Web &amp; Digital Projects</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number" data-target="100" data-suffix="%">0</div>
+                  <div class="stat-label">Problem Solving &amp; Passion Drive</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Info Cards -->
+            <div class="about-info-cards">
+              <div class="info-item-card">
+                <div class="info-item-icon red">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="info-item-content">
+                  <h4>Current University</h4>
+                  <p><strong>Universitas Muhammadiyah Malang (UMM)</strong> — Faculty of Engineering, Informatics Engineering (Focus on Software &amp; Web Systems).</p>
+                </div>
+              </div>
+
+              <div class="info-item-card">
+                <div class="info-item-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <div class="info-item-content">
+                  <h4>Alma Mater High School</h4>
+                  <p><strong>SMAN 2 Kaimana</strong>, Kaimana Regency, West Papua — Academic foundation, leadership, and discipline.</p>
+                </div>
+              </div>
+
+              <div class="info-item-card">
+                <div class="info-item-icon purple">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="info-item-content">
+                  <h4>Core Expertise &amp; Focus</h4>
+                  <p>Fullstack Web Development, Startup Business Pitching, Public Speaking, UI/UX Glassmorphism &amp; Interactive Experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION & EXPERIENCE TIMELINE SECTION -->
+      <section class="timeline-section" id="education">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Academic Journey</span>
+            <h2 class="section-title">Education &amp; Key Milestones</h2>
+            <p class="section-desc">Milestones of formal academic pursuit, leadership training, and competitive excellence.</p>
+          </div>
+
+          <div class="timeline-flow">
+            <!-- Timeline Item 1: UMM -->
+            <article class="timeline-item edu-umm">
+              <div class="timeline-node"></div>
+              <div class="timeline-card">
+                <div class="timeline-header-group">
+                  <h3 class="timeline-title">Universitas Muhammadiyah Malang</h3>
+                  <span class="timeline-period red">2022 – Present (5th Semester)</span>
+                </div>
+                <div class="timeline-institution">
+                  <span>🏛️</span>
+                  <span>Bachelor of Informatics Engineering — Faculty of Engineering</span>
+                </div>
+                <p class="timeline-desc">
+                  Specializing in software engineering, algorithms, modern web development, and database architecture, while actively collaborating in entrepreneurship initiatives and campus summits across UMM.
+                </p>
+                <div class="timeline-tags">
+                  <span class="t-tag">Accredited Informatics Curriculum</span>
+                  <span class="t-tag">Software Engineering</span>
+                  <span class="t-tag">Fullstack Web Dev</span>
+                  <span class="t-tag">Database Architecture</span>
+                  <span class="t-tag">Malang, East Java</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Timeline Item 2: SMAN 2 Kaimana -->
+            <article class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-card">
+                <div class="timeline-header-group">
+                  <h3 class="timeline-title">SMAN 2 Kaimana</h3>
+                  <span class="timeline-period">2019 – 2022</span>
+                </div>
+                <div class="timeline-institution">
+                  <span>🏫</span>
+                  <span>State Senior High School 2 Kaimana, West Papua</span>
+                </div>
+                <p class="timeline-desc">
+                  Completed secondary education with a strong foundation in natural sciences and mathematics. Honored to represent the school and regency as <strong>3rd Place Winner in FLS2N West Papua Provincial Level</strong> (Short Movie) and <strong>2nd Place Winner in Fahmil Qur'an Kaimana Regency</strong>.
+                </p>
+                <div class="timeline-tags">
+                  <span class="t-tag" style="border-color: rgba(245, 158, 11, 0.5); color: #fbbf24;">🏆 3rd Place FLS2N Provincial</span>
+                  <span class="t-tag" style="border-color: rgba(16, 185, 129, 0.5); color: #34d399;">🏆 2nd Place Fahmil Qur'an</span>
+                  <span class="t-tag">Short Movie</span>
+                  <span class="t-tag">Natural Science (MIPA)</span>
+                  <span class="t-tag">Leadership</span>
+                  <span class="t-tag">Kaimana, West Papua</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Timeline Item 3: FEST GoWorld & BEM FEB UMM -->
+            <article class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-card">
+                <div class="timeline-header-group">
+                  <h3 class="timeline-title">FEST GoWorld &amp; BEM FEB UMM Program</h3>
+                  <span class="timeline-period">2024 – 2025</span>
+                </div>
+                <div class="timeline-institution">
+                  <span>🏆</span>
+                  <span>DOME UMM, Malang — International &amp; National Programs</span>
+                </div>
+                <p class="timeline-desc">
+                  Selected participant in the prestigious <em>FEST GoWorld Asia Futurepreneur Selection Program 2025</em>, <em>Startup Founder Clash</em>, and <em>GROW Project Public Speaking Training</em> conducted at DOME UMM.
+                </p>
+                <div class="timeline-tags">
+                  <span class="t-tag">International Futurepreneur</span>
+                  <span class="t-tag">Business Ideation</span>
+                  <span class="t-tag">Public Speaking</span>
+                  <span class="t-tag">DOME UMM</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES & ACHIEVEMENTS SECTION (INTERACTIVE LIGHTBOX) -->
+      <section class="cert-section" id="certificates">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Honors &amp; Credentials</span>
+            <h2 class="section-title">Certificates &amp; Honors</h2>
+            <p class="section-desc">Official certified credentials and championship trophies spanning provincial arts, regency-level Quranic contests, international entrepreneurship, and national business ideation.</p>
+          </div>
+
+          <!-- Filter Buttons -->
+          <div class="cert-filter-row" role="tablist">
+            <button class="cert-filter-btn active" data-filter="all">All Honors (7)</button>
+            <button class="cert-filter-btn" data-filter="championship">🏆 Championships (2)</button>
+            <button class="cert-filter-btn" data-filter="international">International</button>
+            <button class="cert-filter-btn" data-filter="national">National Level</button>
+            <button class="cert-filter-btn" data-filter="training">Workshops &amp; Training</button>
+          </div>
+
+          <!-- Certificates & Achievements Grid -->
+          <div class="cert-grid">
+            <!-- Award 1: Juara III FLS2N Tingkat Provinsi Papua Barat -->
+            <article class="cert-card" 
+                     data-category="championship"
+                     data-img="./assets/certificates/juara-fls2n-provinsi.jpg"
+                     data-title="JUARA III FLS2N TINGKAT PROVINSI PAPUA BARAT (BIDANG FILM PENDEK)"
+                     data-org="Dinas Pendidikan &amp; Kebudayaan Provinsi Papua Barat — FLS2N"
+                     data-no="Category: 3rd Place FLS2N Provincial • Short Movie"
+                     data-date="West Papua Provincial Level">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/juara-fls2n-provinsi.jpg" alt="Foto Juara 3 FLS2N Tingkat Provinsi - Dikha Krisnanda Hafizd" class="cert-img focus-trophy" loading="lazy" />
+                <span class="cert-level-badge provinsi">Provincial Level</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">3rd Place FLS2N West Papua Provincial Level</h3>
+                <p class="cert-org">National Student Art Festival &amp; Competition (FLS2N) • Short Movie</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no" style="color: #fbbf24;">🏆 3rd Provincial Place</span>
+                  <span>West Papua</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Award 2: Juara II Fahmil Qur'an Tingkat Kabupaten Kaimana -->
+            <article class="cert-card" 
+                     data-category="championship"
+                     data-img="./assets/certificates/juara-fahmil-quran-kabupaten.jpg"
+                     data-title="2ND PLACE / 2ND BEST FAHMIL QUR'AN REGENCY LEVEL"
+                     data-org="Quranic Recitation &amp; Comprehension Institute (LPTQ) &amp; Kaimana Regency Govt"
+                     data-no="Category: 2nd Place Fahmil Qur'an Regency Level"
+                     data-date="Kaimana Regency, West Papua">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/juara-fahmil-quran-kabupaten.jpg" alt="Foto Juara 2 Fahmil Qur'an Tingkat Kabupaten - Dikha Krisnanda Hafizd" class="cert-img focus-trophy" loading="lazy" />
+                <span class="cert-level-badge kabupaten">Regency Level</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">2nd Place Fahmil Qur'an Regency Level</h3>
+                <p class="cert-org">Musabaqah Tilawatil Qur'an (MTQ) • Quranic Academic Quiz &amp; Knowledge Contest</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no" style="color: #34d399;">🏆 2nd Regency Place</span>
+                  <span>Kaimana Regency</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cert 1: FEST GOWORLD ASIA (International) -->
+            <article class="cert-card" 
+                     data-category="international"
+                     data-img="./assets/certificates/cert-fest-goworld-2025.png"
+                     data-title="FEST GOWORLD ASIA FUTUREPRENEUR SELECTION PROGRAM 2025"
+                     data-org="FES GO WORLD x BEM FEB Universitas Muhammadiyah Malang"
+                     data-no="MYDS5J8SFQ/XXIII/II/2025"
+                     data-date="23 Februari 2025 (DOME UMM)">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/cert-fest-goworld-2025.png" alt="Sertifikat FEST GOWORLD ASIA 2025" class="cert-img" loading="lazy" />
+                <span class="cert-level-badge international">International</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">FEST GoWorld Asia Futurepreneur Selection Program 2025</h3>
+                <p class="cert-org">FES GO WORLD x BEM FEB UMM • DOME UMM</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no">No: MYDS5J8SFQ</span>
+                  <span>Feb 2025</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cert 2: Training Public Speaking GROW (National) -->
+            <article class="cert-card" 
+                     data-category="national"
+                     data-img="./assets/certificates/cert-public-speaking-2025.png"
+                     data-title="TRAINING PUBLIC SPEAKING — GROW PROJECT"
+                     data-org="GROW Project Indonesia x BEM FEB Universitas Muhammadiyah Malang"
+                     data-no="E4JL4GCB1J/XXIII/II/2025"
+                     data-date="23 Februari 2025 (DOME UMM)">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/cert-public-speaking-2025.png" alt="Sertifikat Training Public Speaking 2025" class="cert-img" loading="lazy" />
+                <span class="cert-level-badge national">National Level</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">Training Public Speaking — GROW PROJECT</h3>
+                <p class="cert-org">GROW Project x BEM FEB Universitas Muhammadiyah Malang</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no">No: E4JL4GCB1J</span>
+                  <span>Feb 2025</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cert 3: Startup Founder Clash (National) -->
+            <article class="cert-card" 
+                     data-category="national"
+                     data-img="./assets/certificates/cert-startup-founder-clash-2024.png"
+                     data-title="STARTUP FOUNDER CLASH — KOMPETISI IDE BISNIS TINGKAT NASIONAL"
+                     data-org="Future Entrepreneur Summit Indonesia"
+                     data-no="4PJ9Z3VNKC/XXIII/II/2025"
+                     data-date="1 Oktober – 20 Desember 2024">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/cert-startup-founder-clash-2024.png" alt="Sertifikat Startup Founder Clash" class="cert-img" loading="lazy" />
+                <span class="cert-level-badge national">National Level</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">National Business Ideation: Startup Founder Clash</h3>
+                <p class="cert-org">Future Entrepreneur Summit Indonesia</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no">No: 4PJ9Z3VNKC</span>
+                  <span>Dec 2024</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cert 4: Pelatihan Entrepreneurship (Training / National) -->
+            <article class="cert-card" 
+                     data-category="training"
+                     data-img="./assets/certificates/cert-entrepreneurship-2025.png"
+                     data-title="ENTREPRENEURSHIP BOOTCAMP — GROW X FESt"
+                     data-org="FESt Management x BEM FEB Universitas Muhammadiyah Malang"
+                     data-no="GJNYEF04S1/XXIII/II/2025"
+                     data-date="23 Februari 2025 (DOME UMM)">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/cert-entrepreneurship-2025.png" alt="Sertifikat Pelatihan Entrepreneurship" class="cert-img" loading="lazy" />
+                <span class="cert-level-badge national">National Level</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">Entrepreneurship Bootcamp: GROW X FESt</h3>
+                <p class="cert-org">FESt Management x BEM FEB UMM • DOME UMM</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no">No: GJNYEF04S1</span>
+                  <span>Feb 2025</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cert 5: Webinar Self-Development (Training) -->
+            <article class="cert-card" 
+                     data-category="training"
+                     data-img="./assets/certificates/cert-self-development-2024.png"
+                     data-title="WEBINAR SELF-DEVELOPMENT & SOFT SKILL DEVELOPMENT"
+                     data-org="FESt Management x Wardah"
+                     data-no="GUVWCW5AS6/XXIII/II/2025"
+                     data-date="23 November 2024">
+              <div class="cert-preview-wrap">
+                <img src="./assets/certificates/cert-self-development-2024.png" alt="Sertifikat Webinar Self-Development Wardah" class="cert-img" loading="lazy" />
+                <span class="cert-level-badge national">National Webinar</span>
+                <div class="cert-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-body">
+                <h3 class="cert-title">Soft Skills Development in the Digital Era Webinar</h3>
+                <p class="cert-org">FESt Management x Wardah</p>
+                <div class="cert-footer-row">
+                  <span class="cert-no">No: GUVWCW5AS6</span>
+                  <span>Nov 2024</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIGHTBOX MODAL FOR CERTIFICATES -->
+      <div class="lightbox-modal" id="cert-lightbox" role="dialog" aria-modal="true" aria-label="Certificate Preview">
+        <div class="lightbox-content-box">
+          <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close Preview">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <div class="lightbox-img-area">
+            <img src="" alt="" id="lightbox-img" />
+          </div>
+          <div class="lightbox-details-area">
+            <h3 id="lightbox-title">Judul Sertifikat</h3>
+            <p id="lightbox-org">Issuing Organization</p>
+            <div class="lightbox-meta-strip">
+              <span id="lightbox-no">No: -</span>
+              <span id="lightbox-date">Date: -</span>
+              <span>Recipient: DIKHA KRISNANDA HAFIZD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS & TECH STACK SECTION -->
+      <section class="skills-section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Technical Expertise</span>
+            <h2 class="section-title">Skills &amp; Technology Stack</h2>
+            <p class="section-desc">A balanced combination of modern web engineering, database architecture, and leadership skills.</p>
+          </div>
+
+          <div class="skills-matrix-grid">
+            <!-- Category 1: Frontend -->
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Frontend Development</h3>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>HTML5 &amp; Semantic SEO</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Modern CSS3 &amp; Glassmorphism</span>
+                    <span>92%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>JavaScript (ES6+)</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>React.js &amp; Components</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 2: Backend & Database -->
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
+                    <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
+                    <line x1="6" x2="6.01" y1="6" y2="6"></line>
+                    <line x1="6" x2="6.01" y1="18" y2="18"></line>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Backend &amp; Database</h3>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>PHP &amp; Web Architecture</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>MySQL Database &amp; SQL</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Node.js &amp; Express</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>RESTful API Integration</span>
+                    <span>84%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 84%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 3: Tools & Workflow -->
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Tools &amp; Workflow</h3>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Git &amp; GitHub Workflow</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>VS Code &amp; Development Tools</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>UI/UX &amp; Prototyping</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Three.js / WebGL Visuals</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 4: Leadership & Soft Skills -->
+            <div class="skill-category-card">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Soft Skills &amp; Leadership</h3>
+              </div>
+              <div class="skill-items-list">
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Public Speaking &amp; Communication</span>
+                    <span>94%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 94%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Startup Business Pitching</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Teamwork &amp; Problem Solving</span>
+                    <span>92%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+                </div>
+                <div class="skill-item-row">
+                  <div class="skill-info-top">
+                    <span>Project &amp; Event Organizing</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED PROJECTS SECTION -->
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Featured Portfolio</span>
+            <h2 class="section-title">Featured Projects &amp; Systems</h2>
+            <p class="section-desc">Handcrafted web applications, networking security monitors, and real-time digital platforms.</p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Smart Tester Networking -->
+            <article class="project-card">
+              <div class="project-thumb-frame" style="cursor: pointer;" onclick="openProjectLightbox('./assets/projects/smart-tester-networking.png', 'Smart Tester Networking — NSMS Dashboard', 'Real-time network security monitoring system with automated Ping Tests, Port Scanner, Security Score, and topology visualization.', 'PHP / Node.js • Chart.js • Networking API')">
+                <img src="./assets/projects/smart-tester-networking.png" alt="Screenshot Smart Tester Networking NSMS" class="project-img" loading="lazy" />
+                <span class="project-badge-tag">Network Security &amp; Monitoring</span>
+                <div class="project-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Smart Tester Networking (NSMS)</h3>
+                <p class="project-desc">
+                  Intelligent Network Security &amp; Monitoring System featuring an interactive real-time dashboard. Equipped with automated Ping Tests, multi-port scanning, cybersecurity risk scoring, visual topology mapping, and online/offline device status trackers.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-pill">PHP / Node.js</span>
+                  <span class="tech-pill">Ping Test &amp; Ports</span>
+                  <span class="tech-pill">Chart.js</span>
+                  <span class="tech-pill">Network Security</span>
+                  <span class="tech-pill">Cyber Dark UI</span>
+                </div>
+                <div class="project-links-row">
+                  <a href="javascript:void(0)" onclick="openProjectLightbox('./assets/projects/smart-tester-networking.png', 'Smart Tester Networking — NSMS Dashboard', 'Real-time network security monitoring system with automated Ping Tests, Port Scanner, Security Score, and topology visualization.', 'PHP / Node.js • Chart.js • Networking API')" class="btn-project-link">
+                    <span>Live Preview</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/dikhakrisnanda" target="_blank" rel="noopener noreferrer" class="btn-project-link">
+                    <span>Source Code</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: RentalGo -->
+            <article class="project-card">
+              <div class="project-thumb-frame" style="cursor: pointer;" onclick="openProjectLightbox('./assets/projects/rentalgo.png', 'RentalGo — Vehicle Rental Platform', 'Comprehensive vehicle rental web platform featuring multi-filter booking (transmission, price range, dates), administrative fleet management for 50+ vehicles across 150+ locations, and booking records.', 'PHP • MySQL • JavaScript ES6 • Responsive UI')">
+                <img src="./assets/projects/rentalgo.png" alt="Screenshot RentalGo Platform" class="project-img" loading="lazy" />
+                <span class="project-badge-tag">Vehicle Rental Platform</span>
+                <div class="project-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">RentalGo — Vehicle Rental Platform</h3>
+                <p class="project-desc">
+                  Integrated online vehicle rental platform offering cars and motorbikes at accessible rates. Features multi-parameter filtering (category, transmission, pricing, dates), fleet management for 50+ units across 150+ rental hubs, booking history, and an administrative control suite.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-pill">Web Application</span>
+                  <span class="tech-pill">PHP &amp; MySQL</span>
+                  <span class="tech-pill">JavaScript ES6</span>
+                  <span class="tech-pill">Booking Engine</span>
+                  <span class="tech-pill">Responsive CSS3</span>
+                </div>
+                <div class="project-links-row">
+                  <a href="javascript:void(0)" onclick="openProjectLightbox('./assets/projects/rentalgo.png', 'RentalGo — Vehicle Rental Platform', 'Comprehensive vehicle rental web platform featuring multi-filter booking (transmission, price range, dates), administrative fleet management for 50+ vehicles across 150+ locations, and booking records.', 'PHP • MySQL • JavaScript ES6 • Responsive UI')" class="btn-project-link">
+                    <span>Live Preview</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/dikhakrisnanda" target="_blank" rel="noopener noreferrer" class="btn-project-link">
+                    <span>Source Code</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Smart Campus Parkin -->
+            <article class="project-card">
+              <div class="project-thumb-frame" style="cursor: pointer;" onclick="openProjectLightbox('./assets/projects/smart-campus-parkin.png', 'Smart Campus Parkin — Real-Time Parking System', 'Smart campus parking management platform featuring instant QR Ticket scanning for check-in/out, vehicle classification (Motor/Car), Pin My Parking Spot locator, and quota warning alerts.', 'Mobile-First • QR Scanner API • Real-Time UI • JavaScript')">
+                <img src="./assets/projects/smart-campus-parkin.png" alt="Screenshot Smart Campus Parkin" class="project-img" loading="lazy" />
+                <span class="project-badge-tag">Smart Campus Parking</span>
+                <div class="project-zoom-overlay">
+                  <div class="zoom-icon-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Smart Campus Parkin</h3>
+                <p class="project-desc">
+                  Data-driven campus parking management web app. Features camera-based instant QR Parking Ticket scanning for seamless check-in/out, vehicle classification (Motorcycle/Car), &ldquo;Pin My Parking Spot&rdquo; memory locator, and proactive slot quota warning notifications across university zones.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="tech-pill">Mobile-First Web</span>
+                  <span class="tech-pill">QR Code Scanner API</span>
+                  <span class="tech-pill">Real-Time Sensor UI</span>
+                  <span class="tech-pill">JavaScript ES6</span>
+                  <span class="tech-pill">Modern Dock Bar</span>
+                </div>
+                <div class="project-links-row">
+                  <a href="javascript:void(0)" onclick="openProjectLightbox('./assets/projects/smart-campus-parkin.png', 'Smart Campus Parkin — Real-Time Parking System', 'Smart campus parking management platform featuring instant QR Ticket scanning for check-in/out, vehicle classification (Motor/Car), Pin My Parking Spot locator, and quota warning alerts.', 'Mobile-First • QR Scanner API • Real-Time UI • JavaScript')" class="btn-project-link">
+                    <span>Live Preview</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/dikhakrisnanda" target="_blank" rel="noopener noreferrer" class="btn-project-link">
+                    <span>Source Code</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPOTIFY M!PLAY PLAYLIST SECTION -->
+      <section class="spotify-section" id="spotify">
+        <div class="container">
+          <div class="spotify-card">
+            <!-- Left Info Column -->
+            <div class="spotify-info">
+              <div class="spotify-tag-badge">
+                <span class="spotify-logo-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.48.66.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                  </svg>
+                </span>
+                <span>M!play • Spotify Playlist</span>
+                <div class="equalizer-bars" aria-hidden="true">
+                  <span class="bar bar-1"></span>
+                  <span class="bar bar-2"></span>
+                  <span class="bar bar-3"></span>
+                  <span class="bar bar-4"></span>
+                </div>
+              </div>
+
+              <h2 class="spotify-heading">
+                A little music.<br>
+                <span class="gradient-text-spotify">A lot of ideas.</span>
+              </h2>
+
+              <p class="spotify-description">
+                Curated soundscapes by <strong>M!play</strong> designed for high productivity, deep focus coding, and creative inspiration for Informatics Engineering students at Universitas Muhammadiyah Malang. Press play and elevate your programming flow!
+              </p>
+
+              <div class="spotify-actions">
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbObFQZ3JLcXt?si=d8a7738962e44093" target="_blank" rel="noopener noreferrer" class="btn-spotify">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.48.66.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                  </svg>
+                  <span>Open on Spotify</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Spotify Player Column -->
+            <div class="spotify-player-wrap">
+              <iframe 
+                style="border-radius:14px" 
+                src="https://open.spotify.com/embed/playlist/37i9dQZEVXbObFQZ3JLcXt?utm_source=generator&theme=0" 
+                width="100%" 
+                height="352" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy"
+                title="M!play Spotify Playlist Player">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-desc">Have a question, collaboration inquiry, or professional opportunity? Feel free to reach out anytime!</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Info Panel -->
+            <div class="contact-info-panel">
+              <a href="mailto:dikhakrisnanda@gmail.com" class="contact-card-box">
+                <div class="contact-icon-bubble">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span>Email Address</span>
+                  <strong>dikhakrisnanda@gmail.com</strong>
+                </div>
+              </a>
+
+              <a href="https://wa.me/6281354116729" target="_blank" rel="noopener noreferrer" class="contact-card-box">
+                <div class="contact-icon-bubble">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span>WhatsApp Direct</span>
+                  <strong>+62 813-5411-6729</strong>
+                </div>
+              </a>
+
+              <a href="https://www.instagram.com/dikha25_" target="_blank" rel="noopener noreferrer" class="contact-card-box">
+                <div class="contact-icon-bubble">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span>Instagram Profile</span>
+                  <strong>@dikha25_</strong>
+                </div>
+              </a>
+
+              <div class="contact-card-box">
+                <div class="contact-icon-bubble">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span>Location Base</span>
+                  <strong>Malang, East Java / Kaimana, West Papua</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Contact Form Surface -->
+            <div class="contact-form-surface">
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Full Name</label>
+                  <input type="text" id="form-name" class="form-input" placeholder="Enter your full name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="name@example.com" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Your Message</label>
+                  <textarea id="form-message" class="form-textarea" placeholder="Write your message, project idea, or collaboration inquiry here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit-form">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- TOAST ALERT -->
+    <div class="toast-alert" id="toast-message" role="alert">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <span class="toast-text">Your message has been sent successfully!</span>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-row">
+          <div class="footer-brand">
+            <h3>DIKHA KRISNANDA HAFIZD</h3>
+            <p>Informatics Engineering — Universitas Muhammadiyah Malang (UMM)</p>
+          </div>
+          <button class="btn-back-to-top" id="back-to-top" aria-label="Back to Top">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div class="footer-bottom-row">
+          <p>© 2026 Dikha Krisnanda Hafizd. All rights reserved.</p>
+          <p>Web Programming Assignment — Semester 5 • Universitas Muhammadiyah Malang</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FLOATING QUICK SPOTIFY MUSIC PILL -->
+    <a href="#spotify" class="floating-music-pill" aria-label="Listen to M!play Spotify Playlist">
+      <span class="floating-pill-dot"></span>
+      <div class="equalizer-bars" aria-hidden="true">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+        <span class="bar bar-4"></span>
+      </div>
+      <span class="floating-pill-text">M!play</span>
+    </a>
+
+    <!-- FLOATING WHATSAPP DIRECT BUTTON -->
+    <a href="https://wa.me/6281354116729" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="Chat with Dikha Krisnanda on WhatsApp">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+      <span>Chat on WhatsApp</span>
+    </a>
+
+    <!-- Main JavaScript Logic -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
